@@ -11,7 +11,7 @@ const bcrypt = require('bcryptjs')
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('mongodb://localhost:27017/music')
+mongoose.connect("mongodb://java:Superbeekie!88898@89.208.209.153:27017/MongoDB-8363", {useNewUrlParser: true});
 
 app.post('/api/register', async (req, res) => {
 	console.log(req.body)
